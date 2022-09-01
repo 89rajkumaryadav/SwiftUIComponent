@@ -10,6 +10,7 @@
 		5617B74D28C0B53B009C1613 /* Modifire_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B74C28C0B53B009C1613 /* Modifire_File.swift */; };
 		5617B75028C0C597009C1613 /* ViewModifireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B74F28C0C597009C1613 /* ViewModifireView.swift */; };
 		5617B75328C0C9D8009C1613 /* TextModifires.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B75228C0C9D8009C1613 /* TextModifires.swift */; };
+		5617B75528C0CB72009C1613 /* GeneralModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5617B75428C0CB72009C1613 /* GeneralModifire.swift */; };
 		56B8C3A728B8CD020052B2CC /* SwiftUIComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B8C3A628B8CD020052B2CC /* SwiftUIComponentApp.swift */; };
 		56B8C3A928B8CD020052B2CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B8C3A828B8CD020052B2CC /* ContentView.swift */; };
 		56B8C3AB28B8CD040052B2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B8C3AA28B8CD040052B2CC /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		5617B74C28C0B53B009C1613 /* Modifire_File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifire_File.swift; sourceTree = "<group>"; };
 		5617B74F28C0C597009C1613 /* ViewModifireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifireView.swift; sourceTree = "<group>"; };
 		5617B75228C0C9D8009C1613 /* TextModifires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifires.swift; sourceTree = "<group>"; };
+		5617B75428C0CB72009C1613 /* GeneralModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModifire.swift; sourceTree = "<group>"; };
 		56B8C3A328B8CD020052B2CC /* SwiftUIComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B8C3A628B8CD020052B2CC /* SwiftUIComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentApp.swift; sourceTree = "<group>"; };
 		56B8C3A828B8CD020052B2CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				5617B75228C0C9D8009C1613 /* TextModifires.swift */,
+				5617B75428C0CB72009C1613 /* GeneralModifire.swift */,
 			);
 			path = Modifires;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				56B8C3A728B8CD020052B2CC /* SwiftUIComponentApp.swift in Sources */,
 				56C3411228BE49B5002F18DA /* LandMarkList.swift in Sources */,
 				56C3411528BE4C3E002F18DA /* LandMarkCell.swift in Sources */,
+				5617B75528C0CB72009C1613 /* GeneralModifire.swift in Sources */,
 				5617B74D28C0B53B009C1613 /* Modifire_File.swift in Sources */,
 				56C3410628BE1EEA002F18DA /* Landmark.swift in Sources */,
 				56C3410928BE1F5B002F18DA /* MainViewBuilder.swift in Sources */,

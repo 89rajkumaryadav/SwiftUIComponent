@@ -15,6 +15,10 @@ struct ViewModifireView: View {
                 Text("ViewModifire title test.")
                     .setHeadLine()
                    // .modifier(TextHeadLine())
+                
+                Color.blue
+                    .frame(width: 300, height: 200)
+                    .setWaterMark(text: "This is New Watermark.")
                     
             }
             
