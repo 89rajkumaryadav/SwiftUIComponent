@@ -11,14 +11,22 @@ struct WaterMark: ViewModifier{
     var text: String
     func body(content: Content) -> some View {
        
-        ZStack(alignment: .bottomTrailing){
+       
             content
-            Text(text)
-                .font(.caption)
-                .foregroundColor(.white)
-                .padding(5)
-                .background(Color.black)
-        }
+            .overlay (
+                
+                Text(text)
+                    .font(.caption)
+                    .foregroundColor(.white)
+                    .padding(5)
+                    .background(Color.black),
+                
+                
+                alignment: .bottomTrailing
+                
+            )
+           
+       
             
     }
 }

@@ -72,8 +72,8 @@
 		5617B74E28C0C52B009C1613 /* ViewModifireUses */ = {
 			isa = PBXGroup;
 			children = (
-				5617B75128C0C9A1009C1613 /* Modifires */,
 				5617B74F28C0C597009C1613 /* ViewModifireView.swift */,
+				5617B75128C0C9A1009C1613 /* Modifires */,
 			);
 			path = ViewModifireUses;
 			sourceTree = "<group>";
