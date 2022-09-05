@@ -25,6 +25,8 @@
 		56C3410F28BE20A8002F18DA /* SearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3410E28BE20A8002F18DA /* SearchList.swift */; };
 		56C3411228BE49B5002F18DA /* LandMarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3411128BE49B5002F18DA /* LandMarkList.swift */; };
 		56C3411528BE4C3E002F18DA /* LandMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3411428BE4C3E002F18DA /* LandMarkCell.swift */; };
+		56C4D86028C6276100F790E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4D85F28C6276100F790E6 /* ButtonView.swift */; };
+		56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9325228C2397500A6679E /* ComponentsDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		56C3410E28BE20A8002F18DA /* SearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchList.swift; sourceTree = "<group>"; };
 		56C3411128BE49B5002F18DA /* LandMarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkList.swift; sourceTree = "<group>"; };
 		56C3411428BE4C3E002F18DA /* LandMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkCell.swift; sourceTree = "<group>"; };
+		56C4D85F28C6276100F790E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		56F9325228C2397500A6679E /* ComponentsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		56B8C3A528B8CD020052B2CC /* SwiftUIComponent */ = {
 			isa = PBXGroup;
 			children = (
+				56F9325228C2397500A6679E /* ComponentsDetails.swift */,
 				56B8C3B528B8CD570052B2CC /* Code */,
 				56B8C3B428B8CD1D0052B2CC /* Resources */,
 				56B8C3AC28B8CD040052B2CC /* Preview Content */,
@@ -135,6 +140,7 @@
 		56B8C3B528B8CD570052B2CC /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				56C4D85E28C6269800F790E6 /* Button */,
 				5617B74A28C0B3AB009C1613 /* ViewModifire */,
 				56B8C3B728B8CD890052B2CC /* ViewBuilder */,
 				56B8C3B628B8CD5E0052B2CC /* Base */,
@@ -187,6 +193,14 @@
 				56C3411428BE4C3E002F18DA /* LandMarkCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		56C4D85E28C6269800F790E6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				56C4D85F28C6276100F790E6 /* ButtonView.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,7 @@
 				56C3410428BE1ECE002F18DA /* ModelData.swift in Sources */,
 				56C3410F28BE20A8002F18DA /* SearchList.swift in Sources */,
 				5617B75328C0C9D8009C1613 /* TextModifires.swift in Sources */,
+				56C4D86028C6276100F790E6 /* ButtonView.swift in Sources */,
 				5617B75028C0C597009C1613 /* ViewModifireView.swift in Sources */,
 				56B8C3B928B8D0BC0052B2CC /* Builder_File.swift in Sources */,
 				56B8C3A728B8CD020052B2CC /* SwiftUIComponentApp.swift in Sources */,
@@ -274,6 +289,7 @@
 				56C3410628BE1EEA002F18DA /* Landmark.swift in Sources */,
 				56C3410928BE1F5B002F18DA /* MainViewBuilder.swift in Sources */,
 				56C3410B28BE204C002F18DA /* AllList.swift in Sources */,
+				56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */,
 				56C3410D28BE206B002F18DA /* FavouriteList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,9 @@ struct ContentView: View {
     var body: some View {
        // MainViewBuilder().environmentObject(loadData)
         
-        ViewModifireView()
+      //  ViewModifireView()
+        
+        ButtonView()
     }
 }
 

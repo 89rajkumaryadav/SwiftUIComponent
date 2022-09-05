@@ -44,3 +44,6 @@ struct LandMarkCell_Previews: PreviewProvider {
         LandMarkCell(landmark: ModelData().landmarks[0])
     }
 }
+
+
+
