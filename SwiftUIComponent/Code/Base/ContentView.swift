@@ -16,12 +16,18 @@ struct ContentView: View {
         
       //  ViewModifireView()
         
-        ButtonView()
+      //  ButtonView()
+        
+      //  TextFieldView()
+        
+      //   Label_View()
+        
+    Menu_View()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        MainViewBuilder()
+        ContentView()
     }
 }

@@ -19,7 +19,7 @@ import Foundation
 7. GroupBox
 8. Label
 9. Link
-10.List / Section
+10.List / Section / EditButton
 11.Menu
 12.NavigationLink / NavigationView
 13.OutLineGroup/ FileItem
@@ -94,6 +94,7 @@ import Foundation
 
 -----------::::::::Others::::::::------------
 
+ .searchable()
 
 
 
@@ -109,11 +110,12 @@ import Foundation
 
 
 
-
-
+------------::::::::::::::::Protocol:::::::::::::::-------------------
+ Identifiable, Hashable
 
 
 
 
 
 */
+
