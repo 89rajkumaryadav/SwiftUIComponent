@@ -111,7 +111,7 @@ import Foundation
 
 
 ------------::::::::::::::::Protocol:::::::::::::::-------------------
- Identifiable, Hashable
+ Identifiable, Hashable, Equatable
 
 
 

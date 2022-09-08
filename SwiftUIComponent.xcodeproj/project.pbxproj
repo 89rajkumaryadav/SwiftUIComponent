@@ -39,6 +39,9 @@
 		56C3411528BE4C3E002F18DA /* LandMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3411428BE4C3E002F18DA /* LandMarkCell.swift */; };
 		56C4D86028C6276100F790E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4D85F28C6276100F790E6 /* ButtonView.swift */; };
 		56C6496328C9F539003186EA /* Stepper_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6496228C9F539003186EA /* Stepper_View.swift */; };
+		56C6496628C9F805003186EA /* TabView_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6496528C9F805003186EA /* TabView_View.swift */; };
+		56C6496928CA0212003186EA /* List_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6496828CA0212003186EA /* List_View.swift */; };
+		56C6496C28CA159C003186EA /* ScrollViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6496B28CA159C003186EA /* ScrollViewProxy.swift */; };
 		56F20DFE28C9C96F00E5A99D /* Text_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20DFD28C9C96F00E5A99D /* Text_View.swift */; };
 		56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9325228C2397500A6679E /* ComponentsDetails.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,9 @@
 		56C3411428BE4C3E002F18DA /* LandMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkCell.swift; sourceTree = "<group>"; };
 		56C4D85F28C6276100F790E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		56C6496228C9F539003186EA /* Stepper_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_View.swift; sourceTree = "<group>"; };
+		56C6496528C9F805003186EA /* TabView_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_View.swift; sourceTree = "<group>"; };
+		56C6496828CA0212003186EA /* List_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_View.swift; sourceTree = "<group>"; };
+		56C6496B28CA159C003186EA /* ScrollViewProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewProxy.swift; sourceTree = "<group>"; };
 		56F20DFD28C9C96F00E5A99D /* Text_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_View.swift; sourceTree = "<group>"; };
 		56F9325228C2397500A6679E /* ComponentsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -330,6 +336,9 @@
 		56C6496028C9F433003186EA /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				56C6496A28CA158B003186EA /* ScrollViewProxy */,
+				56C6496728CA0200003186EA /* List */,
+				56C6496428C9F7F6003186EA /* TabView */,
 				56C6496128C9F51E003186EA /* Stepper */,
 				56F20DFC28C9C95E00E5A99D /* Text */,
 				5677DC4328C8E329006E4FDC /* Toggle */,
@@ -355,6 +364,30 @@
 				56C6496228C9F539003186EA /* Stepper_View.swift */,
 			);
 			path = Stepper;
+			sourceTree = "<group>";
+		};
+		56C6496428C9F7F6003186EA /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				56C6496528C9F805003186EA /* TabView_View.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		56C6496728CA0200003186EA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				56C6496828CA0212003186EA /* List_View.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		56C6496A28CA158B003186EA /* ScrollViewProxy */ = {
+			isa = PBXGroup;
+			children = (
+				56C6496B28CA159C003186EA /* ScrollViewProxy.swift */,
+			);
+			path = ScrollViewProxy;
 			sourceTree = "<group>";
 		};
 		56F20DFC28C9C95E00E5A99D /* Text */ = {
@@ -460,13 +493,16 @@
 				5617B74D28C0B53B009C1613 /* Modifire_File.swift in Sources */,
 				56C3410628BE1EEA002F18DA /* Landmark.swift in Sources */,
 				5677DC3628C8BB09006E4FDC /* Menu_View.swift in Sources */,
+				56C6496C28CA159C003186EA /* ScrollViewProxy.swift in Sources */,
 				56C3410928BE1F5B002F18DA /* MainViewBuilder.swift in Sources */,
+				56C6496628C9F805003186EA /* TabView_View.swift in Sources */,
 				56C3410B28BE204C002F18DA /* AllList.swift in Sources */,
 				56F20DFE28C9C96F00E5A99D /* Text_View.swift in Sources */,
 				56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */,
 				56C3410D28BE206B002F18DA /* FavouriteList.swift in Sources */,
 				5677DC4228C8E2AD006E4FDC /* TextEditor_View.swift in Sources */,
 				569D7FA028C7987700E0BA4A /* Form_View.swift in Sources */,
+				56C6496928CA0212003186EA /* List_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
