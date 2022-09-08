@@ -38,6 +38,8 @@
 		56C3411228BE49B5002F18DA /* LandMarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3411128BE49B5002F18DA /* LandMarkList.swift */; };
 		56C3411528BE4C3E002F18DA /* LandMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3411428BE4C3E002F18DA /* LandMarkCell.swift */; };
 		56C4D86028C6276100F790E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4D85F28C6276100F790E6 /* ButtonView.swift */; };
+		56C6496328C9F539003186EA /* Stepper_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6496228C9F539003186EA /* Stepper_View.swift */; };
+		56F20DFE28C9C96F00E5A99D /* Text_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F20DFD28C9C96F00E5A99D /* Text_View.swift */; };
 		56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9325228C2397500A6679E /* ComponentsDetails.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		56C3411128BE49B5002F18DA /* LandMarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkList.swift; sourceTree = "<group>"; };
 		56C3411428BE4C3E002F18DA /* LandMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkCell.swift; sourceTree = "<group>"; };
 		56C4D85F28C6276100F790E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		56C6496228C9F539003186EA /* Stepper_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_View.swift; sourceTree = "<group>"; };
+		56F20DFD28C9C96F00E5A99D /* Text_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_View.swift; sourceTree = "<group>"; };
 		56F9325228C2397500A6679E /* ComponentsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -260,19 +264,7 @@
 		56B8C3B528B8CD570052B2CC /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				5677DC4328C8E329006E4FDC /* Toggle */,
-				5677DC4028C8E292006E4FDC /* TextEditor */,
-				5677DC3D28C8DE13006E4FDC /* ColorPicker */,
-				5677DC3A28C8DD58006E4FDC /* ProgressView */,
-				5677DC3728C8D4F7006E4FDC /* OutlineGroup */,
-				5677DC3428C8BAF4006E4FDC /* Menu */,
-				5677DC3128C8B76D006E4FDC /* Link */,
-				5677DC2E28C8AFF6006E4FDC /* GroupBox */,
-				569D7F9E28C7986000E0BA4A /* Form */,
-				569D7F9B28C7940100E0BA4A /* DisclosureGroup */,
-				569D7F9A28C78CEF00E0BA4A /* Label */,
-				569D7F9528C72D7400E0BA4A /* TextField */,
-				56C4D85E28C6269800F790E6 /* Button */,
+				56C6496028C9F433003186EA /* Controls */,
 				5617B74A28C0B3AB009C1613 /* ViewModifire */,
 				56B8C3B728B8CD890052B2CC /* ViewBuilder */,
 				56B8C3B628B8CD5E0052B2CC /* Base */,
@@ -333,6 +325,44 @@
 				56C4D85F28C6276100F790E6 /* ButtonView.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		56C6496028C9F433003186EA /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				56C6496128C9F51E003186EA /* Stepper */,
+				56F20DFC28C9C95E00E5A99D /* Text */,
+				5677DC4328C8E329006E4FDC /* Toggle */,
+				5677DC4028C8E292006E4FDC /* TextEditor */,
+				5677DC3D28C8DE13006E4FDC /* ColorPicker */,
+				5677DC3A28C8DD58006E4FDC /* ProgressView */,
+				5677DC3728C8D4F7006E4FDC /* OutlineGroup */,
+				5677DC3428C8BAF4006E4FDC /* Menu */,
+				5677DC3128C8B76D006E4FDC /* Link */,
+				5677DC2E28C8AFF6006E4FDC /* GroupBox */,
+				569D7F9E28C7986000E0BA4A /* Form */,
+				569D7F9B28C7940100E0BA4A /* DisclosureGroup */,
+				569D7F9A28C78CEF00E0BA4A /* Label */,
+				569D7F9528C72D7400E0BA4A /* TextField */,
+				56C4D85E28C6269800F790E6 /* Button */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		56C6496128C9F51E003186EA /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				56C6496228C9F539003186EA /* Stepper_View.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		56F20DFC28C9C95E00E5A99D /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				56F20DFD28C9C96F00E5A99D /* Text_View.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,12 +455,14 @@
 				56C3411228BE49B5002F18DA /* LandMarkList.swift in Sources */,
 				5677DC4528C8E33D006E4FDC /* Toggle.swift in Sources */,
 				56C3411528BE4C3E002F18DA /* LandMarkCell.swift in Sources */,
+				56C6496328C9F539003186EA /* Stepper_View.swift in Sources */,
 				5617B75528C0CB72009C1613 /* GeneralModifire.swift in Sources */,
 				5617B74D28C0B53B009C1613 /* Modifire_File.swift in Sources */,
 				56C3410628BE1EEA002F18DA /* Landmark.swift in Sources */,
 				5677DC3628C8BB09006E4FDC /* Menu_View.swift in Sources */,
 				56C3410928BE1F5B002F18DA /* MainViewBuilder.swift in Sources */,
 				56C3410B28BE204C002F18DA /* AllList.swift in Sources */,
+				56F20DFE28C9C96F00E5A99D /* Text_View.swift in Sources */,
 				56F9325328C2397500A6679E /* ComponentsDetails.swift in Sources */,
 				56C3410D28BE206B002F18DA /* FavouriteList.swift in Sources */,
 				5677DC4228C8E2AD006E4FDC /* TextEditor_View.swift in Sources */,
